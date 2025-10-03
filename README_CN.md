@@ -63,12 +63,14 @@ OpenCV>=4.2, Follow Opencv Installation.
 
 非模板化/双版本的Sophus安装
 
+```bash
 git clone https://github.com/strasdat/Sophus.git
 cd ~/Sophus
 git checkout a621ff
 mkdir build && cd build && cmake ..
 make
 sudo make install
+```
 
 3. Vikit
 

@@ -38,9 +38,13 @@ source ~/catkin_ws/devel/setup.bash
 ```
 
 根据XTDrone使用文档，您需要更改Livox-simulation-customMsg的src/livox_points_plugin.cpp的54行csv路径为本地路径，也可以通过更改它来选择不同的livox系列雷达（即选择Avia，Mid40等型号）。
+
 重要的是，您可以在src/livox_points_plugin.cpp的101行：
+
 publishPointCloudType = 3;
+
 以更改三种msg类型: PointCloud, PointCloud2 和 CustomMsg。其分别对应参数1,2,3.
+
 其中，FAST-LIVO2和FAST-LIO2默认使用CustomMsg。
 
 

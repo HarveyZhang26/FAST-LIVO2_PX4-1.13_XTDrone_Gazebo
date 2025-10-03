@@ -44,7 +44,9 @@ MARS LAB官方仓库：
 https://github.com/hku-mars/FAST-LIVO2
 
 Requirments:
-1.PCL && Eigen && OpenCV
+
+1. PCL && Eigen && OpenCV
+
 PCL>=1.8, Follow PCL Installation.
 
 Eigen>=3.3.4, Follow Eigen Installation.
@@ -52,6 +54,7 @@ Eigen>=3.3.4, Follow Eigen Installation.
 OpenCV>=4.2, Follow Opencv Installation.
 
 2. Sophus
+
 Sophus Installation for the non-templated/double-only version.
 
 git clone https://github.com/strasdat/Sophus.git
@@ -61,7 +64,7 @@ mkdir build && cd build && cmake ..
 make
 sudo make install
 
-3.Vikit
+3. Vikit
 
 ```bash
 cd catkin_ws/src
@@ -69,6 +72,7 @@ git clone https://github.com/xuankuzcr/rpg_vikit.git
 ```
 
 4. Build
+
 Clone the repository and catkin_make:
 
 ```bash

@@ -38,9 +38,13 @@ source ~/catkin_ws/devel/setup.bash
 ```
 
 According to the XTDrone documentation, you need to modify line 54 in `Livox-simulation-customMsg/src/livox_points_plugin.cpp` to point to your local CSV path. You can also change this path to select different Livox LiDAR models (e.g., Avia, Mid40, etc.).
+
 Importantly, on line 101 of `src/livox_points_plugin.cpp`, you can set:
+
 publishPointCloudType = 3;
+
 to switch among three message types: PointCloud, PointCloud2, and CustomMsg, corresponding to parameters 1, 2, and 3 respectively.
+
 Note that FAST-LIVO2 and FAST-LIO2 use CustomMsg by default.
 
 

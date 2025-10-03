@@ -43,7 +43,7 @@ publishPointCloudType = 3;
 MARS LAB官方仓库：
 https://github.com/hku-mars/FAST-LIVO2
 
-Requirments:
+依赖Requirments:
 
 1. PCL && Eigen && OpenCV
 
@@ -55,7 +55,7 @@ OpenCV>=4.2, Follow Opencv Installation.
 
 2. Sophus
 
-Sophus Installation for the non-templated/double-only version.
+非模板化/双版本的Sophus安装
 
 git clone https://github.com/strasdat/Sophus.git
 cd ~/Sophus
@@ -73,7 +73,7 @@ git clone https://github.com/xuankuzcr/rpg_vikit.git
 
 4. Build
 
-Clone the repository and catkin_make:
+克隆存储库和catkin build：
 
 ```bash
 cd ~/catkin_ws/src

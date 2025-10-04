@@ -1,4 +1,4 @@
-# FAST-LIVO2_PX4-1.13_XTDrone_Gazebo
+# FAST-LIVO2 simulation platform based on PX4-1.13_XTDrone_Gazebo
 
 This project aims to build a simulation platform for FAST-LIVO2 based on PX4 1.13, XTDrone, and Gazebo.
 

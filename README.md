@@ -29,10 +29,10 @@ wget http://fishros.com/install -O fishros && . fishros
 ## Livox Plugin Setup
 
 ```bash
-cd ~/catkin_ws/src
+cd ~/catkin_ws
 # The version in this repository has already been modified with appropriate parameters and calibration; no extra steps needed.
 git clone https://github.com/HeweiZhang2026/FAST-LIVO2_PX4-1.13_XTDrone_Gazebo  
-cd ../
+cp ./FAST-LIVO2_PX4-1.13_XTDrone_Gazebo/Livox_simulation_customMsg ./src
 catkin build
 source ~/catkin_ws/devel/setup.bash
 ```
@@ -88,10 +88,10 @@ git clone https://github.com/xuankuzcr/rpg_vikit.git
 Clone the repository and run catkin_make:
 
 ```bash
-cd ~/catkin_ws/src
+cd ~/catkin_ws
 # The version in this repository has already been modified with appropriate parameters and calibration; no extra steps needed.
-git clone https://github.com/HeweiZhang2026/FAST-LIVO2_PX4-1.13_XTDrone_Gazebo  
-cd ../
+git clone https://github.com/HeweiZhang2026/FAST-LIVO2_PX4-1.13_XTDrone_Gazebo
+cp ./FAST-LIVO2_PX4-1.13_XTDrone_Gazebo/FAST-LIVO2 ./src
 catkin build
 ```
 

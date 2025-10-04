@@ -29,10 +29,10 @@ wget http://fishros.com/install -O fishros && . fishros
 ## Livox插件搭建
 
 ```bash
-cd ~/catkin_ws/src
+cd ~/catkin_ws
 # 使用本仓库的版本已做好参数修改和标定，无需额外操作。
 git clone https://github.com/HeweiZhang2026/FAST-LIVO2_PX4-1.13_XTDrone_Gazebo
-cd ../
+cp ./FAST-LIVO2_PX4-1.13_XTDrone_Gazebo/Livox_simulation_customMsg ./src
 catkin build
 source ~/catkin_ws/devel/setup.bash
 ```
@@ -88,10 +88,10 @@ git clone https://github.com/xuankuzcr/rpg_vikit.git
 克隆存储库和catkin build：
 
 ```bash
-cd ~/catkin_ws/src
+cd ~/catkin_ws
 # 使用本仓库的版本已做好参数修改和标定，无需额外操作。
 git clone https://github.com/HeweiZhang2026/FAST-LIVO2_PX4-1.13_XTDrone_Gazebo
-cd ../
+cp ./FAST-LIVO2_PX4-1.13_XTDrone_Gazebo/FAST-LIVO2 ./src
 catkin build
 ```
 
